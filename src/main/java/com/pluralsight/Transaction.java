@@ -35,7 +35,7 @@ public class Transaction {
         this.time = time;
     }
 
-    public int getDescription() {
+    public String getDescription() {
         return description;
     }
 
@@ -57,54 +57,16 @@ public class Transaction {
 
     public void setAmount(float amount) {
         this.amount = amount;
-
-        public String getDateOfTransactiom () {
-            return getDateOfTransactiom();
-        }
-
-        public void setDateOfTransaction (String dateOfTransaction){
-            this.dateOfTransaction = dateOfTransaction;
-        }
-
-        public String getTimeOfTansaction () {
-            return timeOfTransaction;
-        }
-
-        public void setTimeOfTransaction (String timeOfTransaction){
-            this.timeOfTransaction = timeOfTransaction;
-        }
-
-        public String getAmountOfTransaction () {
-            return AmountOfTransaction;
-        }
-
-        public void setAmountOfTransaction (String timeOfTransaction){
-            this.amountOfTransaction = amountOfTransaction;
-        }
-
-        @Override
-        public String toString () {
-            return "Transaction{" +
-                    "date='" + date + '\'' +
-                    ", description='" + description + '\'' +
-                    ", vendor=" + vendor +
-                    ", amount='" + amount + '\'' +
-                    ", dateOfTransaction='" + dateOfTransaction + '\'' +
-                    ", timeOfTransactions='" + timeOfTransaction + '\'' +
-                    ", amountOfTransactions='" + amountOfTransaction + '\'' +
-                    '}';
-        }
     }
 
-
-
-
-
-
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Transaction{" +
+                "date='" + date + '\'' +
+                ", time='" + time + '\'' +
+                ", description='" + description + '\'' +
+                ", vendor='" + vendor + '\'' +
+                ", amount=" + amount +
+                '}';
+    }
 }
