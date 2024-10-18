@@ -11,3 +11,8 @@ CLI Accounting Ledger Application
 
 //Going to Reports wi;; display another submenu will you will be able to search your trans actions by, year, date or month. You can also search by vendor.
 
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)

@@ -164,8 +164,7 @@ public class Main {
                 System.out.println("4) Previous Year");
                 System.out.println("5) Search by Vendor");
                 System.out.println("0) Back");
-                 = scanner.nextInt();
-                scanner.nextLine();
+
 
                 switch () {
                     case 1:
